@@ -1,6 +1,39 @@
-# maven target directory
+
+HELP.md
 target/
-# Compiled class file
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Comiled class files
 *.class
 
 # Log file
@@ -21,24 +54,6 @@ target/
 *.tar.gz
 *.rar
 
-#bad mac files
-.DS_Store
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
 
-# don't check in the idea directory
-.idea
 
-*.swp
-
-target/surefire-reports/
-
-# eclipse
-.classpath
-.factorypath
-.project
-.settings
-
-# tags
-tags
